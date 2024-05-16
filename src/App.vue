@@ -1,17 +1,32 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <PropsVue myData1="This is for HOME PAGE"/>
+    <PropsVue myData2="This is for PRODUCT PAGE" samData="hello sam !!!"/>
+    <ifElse/>
+    <elseIf/> 
+    <ForInObj/>
+    <ForInArray/>
+    <ForInLoop/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PropsVue from './components/PropsVue.vue'
+import IfElse from './components/IfElse.vue'
+import elseIf from './components/elseIf.vue'
+import ForInObj from './components/ForInObj.vue'
+import ForInArray from './components/ForInArray.vue'
+import ForInLoop from './components/ForInLoop.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PropsVue,
+    IfElse,
+    elseIf,
+    ForInObj,
+    ForInArray,
+    ForInLoop
   }
 }
 </script>
