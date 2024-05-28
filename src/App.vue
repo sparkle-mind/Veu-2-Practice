@@ -4,9 +4,12 @@
     <PropsVue myData2="This is for PRODUCT PAGE" samData="hello sam !!!"/>
     <ifElse/>
     <elseIf/> 
+    <ternoryOperator/>
     <ForInObj/>
     <ForInArray/>
     <ForInLoop/>
+    <vOnce/>
+    <vBind/>
   </div>
 </template>
 
@@ -17,6 +20,9 @@ import elseIf from './components/elseIf.vue'
 import ForInObj from './components/ForInObj.vue'
 import ForInArray from './components/ForInArray.vue'
 import ForInLoop from './components/ForInLoop.vue'
+import vOnce from './components/vOnce.vue'
+import ternoryOperator from './components/ternoryOperator.vue'
+import vBind from './components/vBind.vue'
 
 export default {
   name: 'App',
@@ -26,7 +32,10 @@ export default {
     elseIf,
     ForInObj,
     ForInArray,
-    ForInLoop
+    ForInLoop,
+    vOnce,
+    ternoryOperator,
+    vBind
   }
 }
 </script>

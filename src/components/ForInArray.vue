@@ -1,8 +1,8 @@
 <template>
     <div>
         <h2>For-In Loop Demo -Array</h2>
-            <ul>
-                <li v-for="fruit in fruits" :key="fruit">{{ fruit }}</li>
+            <ul v-for="fruit in fruits" :key="fruit">
+                <li>{{ fruit }}</li>
             </ul>
 
         <br>
